@@ -29,3 +29,11 @@ apt-get update
 apt-get install -y nodejs npm
 npm install -g ganache-cli
 pip install opencv-python scikit-image cryptography web3 py-solc-x
+
+### Also in Colab:
+from solcx import compile_source, install_solc
+install_solc("0.8.0")
+
+
+
+
